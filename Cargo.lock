@@ -1547,8 +1547,7 @@ checksum = "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd"
 [[package]]
 name = "sea-orm"
 version = "0.6.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd24380b48dacd3ed1c3d467c7b17ffa5818555a2c04066f4a0a9e17d830abc9"
+source = "git+https://github.com/SeaQL/sea-orm.git?branch=into-json-fixup#ddf1e23f826a634f939ceb1ee3b97bcfe9a83932"
 dependencies = [
  "async-stream",
  "async-trait",
@@ -1572,8 +1571,7 @@ dependencies = [
 [[package]]
 name = "sea-orm-macros"
 version = "0.6.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c199fa8630b1e195d7aef24ce8944af8f4ced67c4eccffd8926453b59f2565a1"
+source = "git+https://github.com/SeaQL/sea-orm.git?branch=into-json-fixup#ddf1e23f826a634f939ceb1ee3b97bcfe9a83932"
 dependencies = [
  "bae",
  "heck",
